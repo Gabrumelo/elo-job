@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-size-base: 1.3rem;
+  --font-family-base: Rajdhani, sans-serif;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: var(--font-family-base);
+}
+
+body {
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+}
